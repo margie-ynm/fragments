@@ -1,0 +1,16 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    tools:context="com.example.yatusabes.fragments.OneOutputFragment">
+
+    <TextView
+        android:id="@+id/output_volume"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:text="The Volume of a sphere with a radius of 2 is 6.28"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+
+</FrameLayout>
